@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Korlu Navya Mydhili | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#F8FAFC;
+    color:#475569;
+}
+
+/* Navigation */
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(248,250,252,0.95);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    border-bottom:1px solid #E2E8F0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+    color:#334155;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:28px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#475569;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#0EA5A4;
+}
+
+/* Hero Section */
+
+#home{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 10%;
+}
+
+.hero-content h1{
+    font-size:70px;
+    color:#334155;
+    margin-bottom:10px;
+}
+
+.hero-content h3{
+    color:#0EA5A4;
+    font-weight:500;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    max-width:750px;
+    margin:auto;
+    line-height:2;
+}
+
+.hero-line{
+    width:120px;
+    height:4px;
+    background:#0EA5A4;
+    margin:25px auto;
+}
+
+/* Sections */
+
+section{
+    padding:90px 12%;
+}
+
+.section-title{
+    font-size:38px;
+    color:#334155;
+    margin-bottom:50px;
+    position:relative;
+}
+
+.section-title::after{
+    content:"";
+    width:70px;
+    height:4px;
+    background:#0EA5A4;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+}
+
+/* About */
+
+.about-content{
+    font-size:18px;
+    line-height:2;
+}
+
+/* Skills */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.skills span{
+    padding:10px 22px;
+    border:1px solid #CBD5E1;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.skills span:hover{
+    background:#0EA5A4;
+    color:white;
+}
+
+/* Education */
+
+.education-item{
+    margin-bottom:35px;
+    padding-left:25px;
+    border-left:3px solid #0EA5A4;
+}
+
+.education-item h3{
+    color:#334155;
+    margin-bottom:8px;
+}
+
+/* Certifications */
+
+.certifications ul{
+    padding-left:20px;
+}
+
+.certifications li{
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+/* Projects */
+
+.project{
+    margin-bottom:45px;
+    padding-left:25px;
+    border-left:5px solid #0EA5A4;
+}
+
+.project h3{
+    color:#334155;
+    margin-bottom:10px;
+}
+
+.project p{
+    line-height:1.9;
+}
+
+/* Contact */
+
+.contact-details p{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.contact-details a{
+    color:#0EA5A4;
+    text-decoration:none;
+}
+
+/* Footer */
+
+footer{
+    margin-top:50px;
+    padding:35px;
+    text-align:center;
+    border-top:1px solid #CBD5E1;
+    color:#64748B;
+}
+
+footer p{
+    margin:8px 0;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:42px;
+}
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:15px;
+}
+
+nav ul li{
+    margin:8px;
+}
+
+.section-title{
+    font-size:30px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Portfolio</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#certifications">Certificates</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- Hero Section -->
+
+<section id="home">
+
+<div class="hero-content">
+
+<h1>Korlu Navya Mydhili</h1>
+
+<h3>Artificial Intelligence (CSE) Student</h3>
+
+<div class="hero-line"></div>
+
+<p>
+Passionate Artificial Intelligence student with a strong interest in
+software development, machine learning, and web technologies.
+Focused on building impactful solutions through continuous learning
+and hands-on project experience.
+</p>
+
+</div>
+
+</section>
+
+<!-- About Section -->
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about-content">
+
+<p>
+I am Korlu Navya Mydhili from Nellore, Andhra Pradesh,
+currently pursuing a Bachelor of Technology in Artificial Intelligence
+(Computer Science and Engineering) at Parvathareddy Babul Reddy
+Visvodaya Institute of Technology and Science, Kavali.
+
+I enjoy working on innovative software solutions and continuously
+improving my technical skills in programming, databases,
+web development, and artificial intelligence.
+</p>
+
+</div>
+
+</section>
+
+<!-- Skills Section -->
+
+<section id="skills">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills">
+
+<span>Java</span>
+<span>Python</span>
+<span>HTML</span>
+<span>SQL</span>
+
+</div>
+
+</section>
+
+<!-- Education Section -->
+
+<section id="education">
+
+<h2 class="section-title">Education</h2>
+
+<div class="education-item">
+<h3>B.Tech in Artificial Intelligence (CSE)</h3>
+<p>2023 – 2027</p>
+<p>Parvathareddy Babul Reddy Visvodaya Institute Of Technology And Science, Kavali</p>
+<p>84%</p>
+</div>
+
+<div class="education-item">
+<h3>Intermediate (MPC)</h3>
+<p>2021 – 2023</p>
+<p>Narayana Junior College, Kavali</p>
+<p>93%</p>
+</div>
+
+<div class="education-item">
+<h3>Board of Secondary Education</h3>
+<p>2020 – 2021</p>
+<p>MHS 8th Ward, Kavali</p>
+<p>99%</p>
+</div>
+
+</section>
+
+<!-- Certifications Section -->
+
+<section id="certifications">
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="certifications">
+
+<ul>
+<li>Attended Full Stack Development (Level I) Workshop.</li>
+<li>Earned Certificate from Tinkercad Workshop.</li>
+</ul>
+
+</div>
+
+</section>
+
+<!-- Projects Section -->
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="project">
+<h3>Face Detection System</h3>
+<p>
+Built a real-time facial recognition system using Machine Learning
+and Computer Vision, focusing on security, authentication,
+accuracy, and processing speed.
+</p>
+</div>
+
+<div class="project">
+<h3>Book Finding App</h3>
+<p>
+Developed an application that helps users find required books,
+view complete details, and access links to purchase books online.
+</p>
+</div>
+
+<div class="project">
+<h3>Online Resume Builder</h3>
+<p>
+Created a web-based platform for generating professional resumes
+quickly and efficiently according to user requirements.
+</p>
+</div>
+
+</section>
+
+<!-- Contact Section -->
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact-details">
+
+<p><strong>Name:</strong> Korlu Navya Mydhili</p>
+
+<p><strong>Email:</strong> navyamydhilikorlu@gmail.com</p>
+
+<p><strong>Phone:</strong> 8309200194</p>
+
+<p><strong>Location:</strong> Nellore, Andhra Pradesh</p>
+
+<p>
+<strong>LinkedIn:</strong>
+<a href="https://www.linkedin.com/in/navya-mydhili-korlu-a2880334a" target="_blank">
+View LinkedIn Profile
+</a>
+</p>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 Korlu Navya Mydhili</p>
+
+<p>
+Artificial Intelligence Student • Java Developer • Web Development Enthusiast
+</p>
+
+</footer>
+
+</body>
+</html>
